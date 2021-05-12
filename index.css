@@ -1,0 +1,108 @@
+
+/* Global Layout Set-up (copied from the techdegree)*/
+* { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(2, 26, 63);
+    background: #f7f5f0;
+  }
+/* Nav bar styles(copied from techdergree)*/
+.main-nav {
+    width: 100%;
+    background-color:rgb(2, 26, 63);
+    min-height: 30px;
+    padding: 10px;
+   
+    text-align: center;
+  }
+
+ div a {
+      text-decoration: none;
+      color: #f7f5f0;
+  }
+
+a:hover {
+  color: #e029e0;
+}
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+    
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white;
+  }
+/* Article after image*/
+article{
+    max-width: 600px;
+    background-color: white;
+    padding:40px;
+    border-radius: 10px;
+    
+    margin: 0 auto;
+    margin-top: 60px;
+}
+/* image borber edit*/
+img{
+    border: 2px solid rgb(2, 26, 63);
+    border-radius: 20px;
+}
+
+img-des{
+    font-size: large;
+}
+/* Image decsription below image, i counldnt target in a better way than span */
+span{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    padding:10px;
+    margin-top: 10px;
+    border: 1px solid rgb(2, 26, 63);
+    box-shadow: 1px 2px 9px;
+}
+/* Footer style and border top */
+footer{
+    border-top: 2px solid rgb(2, 26, 63);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(75, 74, 73);
+    padding: 10px;
+}
+/* article header */
+h2{
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+header img{
+    margin-top: 70px;
+    width: 60px;
+    height: 65px;
+}
